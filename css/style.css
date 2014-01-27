@@ -1,6 +1,113 @@
-.container {
-  background: beige;
+body{
+  margin: 0;
+}
+
+.header {
+  background: #d3b792;
+  height: 35px;
+  color: #9f562b;
+}
+
+.menuBar {
+  margin-top: 20px;
+  background: white;
+  color: #9f562b;
+  height: 45px;
+}
+
+.menuItems li {
+  display: inline;
+  margin: 7px 33px;
+}
+
+.menuItems .title {
+  margin-right: 57px;
+  font-weight: bold;
+}
+
+.menuItems .space {
+  margin-right: 165px;
+}
+
+.topBanner {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+.topBanner img {
+  opacity: 0.8;
+  width: 100%;
+  height: 300px;
+  float: left;
+}
+
+.bottomBanner {
+  background: #d3b792;
   color: #750408;
-  width: 280px;
-  height: 600px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.logoTagline {
+  float: left;
+  width: 300px;
+}
+
+.bottomMenu {
+  width: 100%;
+
+}
+
+.companyInfo {
+  font-size: 12px;
+  display: inline;
+  width: 200px;
+  float: right;
+}
+
+.contactInfo {
+  font-size: 12px;
+  display: inline;
+  width: 200px;
+  float:right;
+}
+
+.socialMedia {
+  font-size: 12px;
+  display: inline;
+  width: 200px;
+  float:right;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.bottomMenu .list .title {
+  font-weight: bold;
+}
+
+.tagLine {
+  height: 20px;
+  width: 300px;
+  margin: 6px;
+  font-size: 12px;
+}
+.products {
+  margin-bottom: 30px;
+
+}
+
+.productBox {
+  display: inline;
+  border: 2px dotted black;
+  margin: 80px;
+  padding: 15px;
 }
